@@ -39,3 +39,6 @@ DEFAULT_PAGINATION = False
 #some throw ins
 #if not specified generate URL slug based on title, not filename or anything else
 SLUGIFY_SOURCE = 'title'
+
+#I've always hated Cache for these types of projects
+LOAD_CONTENT_CACHE = False
