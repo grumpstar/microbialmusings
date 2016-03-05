@@ -11,4 +11,5 @@ I have to also remember to turn off relative paths, an option that I thought wou
 
 Here's my inserting one of the images of my current fancy. In hopes that it will work.
 
-![Infamous Freud Kick, I use it commonly for testing.](./images/freudkick.jpg =420x "FreudKick.jpg")
+<img src ="./images/freudkick.jpg" width="450">
+
