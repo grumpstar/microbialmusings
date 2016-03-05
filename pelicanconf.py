@@ -4,11 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'N'
 SITENAME = u'Microbial Musings'
-SITEURL = 'http://kove.pw/mm'
 
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
+
+THEME = 'pelican-mockingbird'
 
 DEFAULT_LANG = u'en'
 
