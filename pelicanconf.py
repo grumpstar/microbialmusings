@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'N'
 SITENAME = u'Microbial Musings'
-
+SITEURL = 'http://kove.pw/mm'
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
@@ -14,7 +14,7 @@ THEME = 'pelican-mockingbird'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feed'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -33,4 +33,9 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+
+#some throw ins
+#if not specified generate URL slug based on title, not filename or anything else
+SLUGIFY_SOURCE = 'title'
