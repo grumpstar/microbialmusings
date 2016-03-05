@@ -29,6 +29,11 @@ So I have decided to start many different places, all on the kove dot pw domain,
 
 this is:
 
-/mm
+kove.pw/mm
+built on Pelican with love and some serious cynicism.
+
+![microbial musings babe who needs alt tags when fuck SEO](https://raw.githubusercontent.com/grumpstar/microbialmusings/master/reskorces/forread.jpg)
+
+
 
  
