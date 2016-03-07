@@ -29,7 +29,7 @@ So I have decided to start many different places, all on the kove dot pw domain,
 
 this is:
 
-kove.pw/mm
+<a href="http://goo.gl/3k4bUe">kove.pw/mm</a>
 built on Pelican with love and some serious cynicism.
 
 ![microbial musings babe who needs alt tags when fuck SEO](https://raw.githubusercontent.com/grumpstar/microbialmusings/master/reskorces/forread.jpg)
