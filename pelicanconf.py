@@ -9,7 +9,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 
-THEME = 'kove-themee'
+THEME = 'kove-theme'
 
 # Uncomment following line if you want document-relative URLs when developing.
 # When Testing a theme, you will need to uncomment this, then comment before git push
