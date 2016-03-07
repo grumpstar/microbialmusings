@@ -9,7 +9,11 @@ PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 
-THEME = 'pelican-mockingbird'
+THEME = 'kove-theme'
+
+# Uncomment following line if you want document-relative URLs when developing.
+# When Testing a theme, you will need to uncomment this, then comment before git push
+RELATIVE_URLS = True
 
 DEFAULT_LANG = u'en'
 
@@ -21,7 +25,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('Twitter', 'http://twitter.com/welcomeback_rr'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
@@ -31,10 +35,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
 
 #some throw ins
 #if not specified generate URL slug based on title, not filename or anything else
