@@ -44,7 +44,6 @@ YEAR_ARCHIVE_SAVE_AS = 'posts/bunker/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 
 # Feed generation is usually not desired when developing
-FEED_DOMAIN = 'http://feeds.kove.pw'
 FEED_ALL_ATOM = 'feed.xml'
 
 #CATEGORY_FEED_ATOM = None
