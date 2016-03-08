@@ -9,7 +9,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 
-THEME = 'kove-theme'
+THEME = 'kove-theme002'
 
 # Uncomment following line if you want document-relative URLs when developing.
 # When Testing a theme, you will need to uncomment this, then comment before git push
@@ -44,7 +44,8 @@ YEAR_ARCHIVE_SAVE_AS = 'posts/bunker/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feed.xml'
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'rss/all.xml'
 
 #CATEGORY_FEED_ATOM = None
 #TRANSLATION_FEED_ATOM = None
