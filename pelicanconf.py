@@ -17,13 +17,6 @@ THEME = 'kove-theme'
 
 DEFAULT_LANG = u'en'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feed.xml'
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
 # Blogroll
 LINKS = (('Twitter', 'http://twitter.com/welcomeback_rr'),
          ('Python.org', 'http://python.org/'),
@@ -42,3 +35,19 @@ SLUGIFY_SOURCE = 'title'
 
 #I've always hated Cache for these types of projects
 LOAD_CONTENT_CACHE = False
+
+#What to do on the topic of auto generating summaries:
+# SUMMARY_MAX_LENGTH = 50
+
+#Thou Shall Generate Archives
+YEAR_ARCHIVE_SAVE_AS = 'posts/bunker/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
+
+# Feed generation is usually not desired when developing
+FEED_DOMAIN = 'http://feeds.kove.pw'
+FEED_ALL_ATOM = 'feed.xml'
+
+#CATEGORY_FEED_ATOM = None
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
