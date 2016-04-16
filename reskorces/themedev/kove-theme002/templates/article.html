@@ -1,4 +1,5 @@
     {% extends "base.html" %}
+    {% import 'pcs/comments.html' as pcs with context %}
     {% block title %}{{ article.title }} - {{SITENAME}}{% endblock title %}
     {% block content %}
     <section id="content" class="article content">
@@ -24,6 +25,7 @@
         <button type="button" class="btn btn-default">
           <a href="{{ SITEURL }}/{{ tag.url }}"><div class="fa fa-lg fa-tag"></div> {{ tag }}</a>
         </button>
+      {{ pcs.comments_quickstart("n", "kove.pw") }}       
         {% endfor %}
         {% endif %}
       </footer>
